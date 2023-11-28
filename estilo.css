@@ -1,5 +1,19 @@
-#presentacion{
+h1{
 
-    margin-top: auto;
-    background-color: antiquewhite;
+    text-align: center;
+}
+  
+.degrade {
+    background: linear-gradient(#212529,white);
+    width: 4800px;
+    height: 300px;
+}
+h3.degrade {
+
+  text-align: center;
+}
+#container{
+
+  height: 300px;
+
 }
