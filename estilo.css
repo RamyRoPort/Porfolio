@@ -1,12 +1,37 @@
-h1{
+body{
 
+  background:rgb(232,235,235) ;
+  Overflow-x: hidden;
+}
+#main{
+  
+  height:70%; 
+  width: 90%;
+  position: relative;
+  display: grid;
+  justify-content: center;
+  
+  }
+
+#item {
+    
+  width: 70%;
+  height: 70%
+       
+}
+#soy{
+  
+  text-align: center;
+
+}  
+h1{
     text-align: center;
 }
   
 .degrade {
     background: linear-gradient(#212529,white);
-    width: 4800px;
-    height: 300px;
+    width: 1588px;
+    height: 170px;
 }
 h3.degrade {
 
@@ -15,5 +40,37 @@ h3.degrade {
 #container{
 
   height: 300px;
+
+}
+#conta {
+ width: auto;
+
+}
+#proyectos {
+
+  text-align: center;
+}
+.simple {
+
+  background: linear-gradient( white,#212529);
+  width: 1588px;
+  height: 170px;
+
+}
+#redes{
+
+  text-align: center;
+}
+#button_share{
+ 
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  display: flex;
+  justify-content: center;
+  font-size: 50px;
+  list-style: none;
+  padding-bottom: 8%;
 
 }
